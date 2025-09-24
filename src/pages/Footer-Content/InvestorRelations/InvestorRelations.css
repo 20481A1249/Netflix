@@ -1,0 +1,74 @@
+.investor-relations-page {
+  background-color: #141414;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.investor-header {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  position: relative;
+  color: red;
+  border-bottom: 1px solid rgb(50, 50, 50) ;
+}
+
+.investor-main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.investor-arrow{
+  cursor: pointer;
+  width: 60px;
+  margin: 1%;
+}
+
+.investor-title {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #e50914;
+  font-weight: bold;
+}
+
+.investor-article {
+  background-color: #222;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.investor-article-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #e50914;
+  margin-bottom: 8px;
+}
+
+.investor-article-content {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #ccc;
+}
+
+.investor-footer {
+  background-color: #141414;
+  color: #757575;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  border-top: 1px solid #333;
+}
+
+.investor-footer a {
+  color: #757575;
+  text-decoration: none;
+}
+
+.investor-footer a:hover {
+  text-decoration: underline;
+}

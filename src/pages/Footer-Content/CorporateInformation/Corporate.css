@@ -1,0 +1,70 @@
+.corporate-page {
+  font-family: Arial, sans-serif;
+  background-color: #141414;
+  color: #fff;
+  margin: 0;
+}
+
+.corporate-header {
+  padding: 20px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #e50914;
+  border-bottom: 1px solid rgb(50,50,50);
+}
+
+.corporate-arrow {
+  width: 60px;
+  cursor: pointer;
+  margin: 1%;
+}
+
+.corporate-main {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.corporate-main h1 {
+  margin-bottom: 20px;
+}
+
+.corporate-section {
+  background-color: #222;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.corporate-section h2 {
+  margin-top: 0;
+  color: #e50914;
+}
+
+.corporate-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.corporate-section ul li {
+  margin-bottom: 8px;
+}
+
+.corporate-link {
+  color: #e50914;
+  text-decoration: none;
+}
+
+.corporate-link:hover {
+  text-decoration: underline;
+}
+
+.corporate-footer {
+  background-color: #141414;
+  color: #757575;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  border-top: 1px solid #333;
+}

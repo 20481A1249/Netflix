@@ -1,0 +1,78 @@
+.language-page {
+  padding: 0.1px;
+  color: white;
+}
+
+.lang-header {
+  margin: 8% 0% 0% 4%;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 2% 4%;
+}
+
+.L-card {
+  width: 180px;
+  position: relative;
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #111;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.L-card:hover {
+  transform: scale(1.05);
+}
+
+.L-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+}
+
+.L-card p {
+  margin: 8px 0;
+  font-size: 14px;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+@media (max-width: 400px){
+  .cards{
+    display: flex;
+    justify-content: center;
+  }
+  .lang-header h2{
+    text-align: center;
+    margin: 15% 0%;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 778px){
+  .cards{
+    display: flex;
+    justify-content: center;
+  }
+  .lang-header h2{
+    text-align: center;
+  }
+}
+
+@media (min-width: 800px){
+  .cards{
+    display: flex;
+    justify-content: center;
+  }
+  .lang-header h2{
+    text-align: center;
+  }
+}

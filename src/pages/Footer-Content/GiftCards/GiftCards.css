@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+.giftcards-page .header {
+  padding: 20px;
+  background-color: #000;
+  border-bottom: 1px solid #333;
+}
+
+.giftcards-page .logo {
+  color: #e50914;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.hero-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-section p {
+  color: #ccc;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.redeem-section {
+  display: flex;
+  justify-content: center;
+  margin: 40px 20px;
+}
+
+.card-gift {
+  background-color: #111;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #000;
+  border-bottom: 1px solid #333;
+  gap: 20px;
+}
+
+.gift-arrow {
+  cursor: pointer;
+  width: 60px;
+  margin: 1%;
+}
+
+.logo {
+  color: #e50914;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.card-header h2 {
+  margin: 0 0 5px 0;
+}
+
+.card-header p {
+  margin: 0 0 15px 0;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+.card-content label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.card-content input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #222;
+  border: 1px solid #444;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.card-content button {
+  width: 100%;
+  padding: 10px;
+  background-color: #e50914;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card-content button:disabled {
+  background-color: #a00;
+  cursor: not-allowed;
+}
+
+.validation-message {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.validation-success {
+  background-color: #006400;
+  color: #c0ffc0;
+}
+
+.validation-error {
+  background-color: #640000;
+  color: #ffc0c0;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #333;
+  color: #888;
+}

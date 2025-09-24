@@ -1,0 +1,100 @@
+.cookies-page {
+  background-color: #141414;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.cookie-arrow {
+  width: 60px;
+  cursor: pointer;
+  margin: 1%;
+}
+
+.cookies-header {
+  padding: 20px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #e50914;
+  border-bottom: 1px solid rgb(50,50,50);
+}
+
+.cookies-main {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.cookies-main h1 {
+  margin-bottom: 20px;
+}
+
+.cookies-section {
+  background-color: #222;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.cookies-section h2 {
+  margin-top: 0;
+  color: #e50914;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  margin-right: 15px;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.description {
+  color: #bbb;
+  font-size: 0.9rem;
+  margin-left: 33px;
+  margin-top: -12px;
+  margin-bottom: 10px;
+}
+
+.save-button {
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 3px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.save-button:hover {
+  background-color: #b0060f;
+}
+
+.cookies-footer {
+  background-color: #141414;
+  color: #757575;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  border-top: 1px solid #333;
+  margin-top: 40px;
+}
+
+.cookies-footer a {
+  color: #757575;
+  text-decoration: none;
+}
+
+.cookies-footer a:hover {
+  text-decoration: underline;
+}

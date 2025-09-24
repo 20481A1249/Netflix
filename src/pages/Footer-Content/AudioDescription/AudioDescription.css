@@ -1,0 +1,87 @@
+/* src/pages/AudioDescription.css */
+
+.audio-description {
+  background-color: #000;
+  color: #fff;
+  padding: 3rem 1rem;
+}
+
+.audio-arrow{
+  width: 60px;
+  cursor: pointer;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+}
+
+.audio-description .logo {
+  color: #e50914;
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: -1px;
+  margin-bottom: 2rem;
+}
+
+.audio-description .main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  /* margin-bottom: 2rem; */
+}
+
+@media (min-width: 768px) {
+  .audio-description .main {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.audio-description h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #e50914;
+  margin-bottom: 1rem;
+}
+
+.audio-description p {
+  color: #d1d5db;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.audio-description .card {
+  background-color: #111;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.audio-description .card h3,
+.audio-description .card h4 {
+  color: #f87171;
+  margin-bottom: 0.5rem;
+}
+
+.audio-description .card ul {
+  color: #d1d5db;
+  list-style: none;
+  padding: 0;
+}
+
+.audio-description .card ul li {
+  margin-bottom: 0.5rem;
+}
+
+.audio-description .resources .card p {
+  font-size: 0.9rem;
+  color: #9ca3af;
+}
+
+.audio-description .bottom {
+  border-top: 1px solid #1f2937;
+  padding-top: 2rem;
+  font-size: 0.8rem;
+  color: #6b7280;
+  text-align: center;
+}
